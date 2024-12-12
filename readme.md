@@ -74,3 +74,5 @@ This will:
 -   Place all generated files into the `docs/` folder.
 
 You can deploy the contents of the `docs/` folder 
+
+build version in the githup pages [Figma test](https://azadnio.github.io/figma-test/).
