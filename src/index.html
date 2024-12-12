@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma Test</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="login-wrap">
+        <div class="login">
+          <div class="logo">
+            <img src="<%= require('./images/logo.png') %>" alt="logo" />
+          </div>
+          <h2>USER LOGIN</h2>
+          <div class="row-wrap">
+            <input type="text" name="" id="" placeholder="Business Email ID" />
+          </div>
+          <div class="row-wrap">
+            <input type="password" name="" id="" placeholder="Password" />
+            <img class="icon-eye" src="<%= require('./images/eye.svg')%>" alt="eye" />
+          </div>
+
+          <div class="row-wrap">
+            <label class="checkbox">
+              <input type="checkbox" checked />
+              <span class="checkmark"></span>
+              Remember me
+            </label>
+            <div style="text-align: center; margin: 40px 0">
+              <a href="#">Don’t remember your password?</a>
+            </div>
+          </div>
+
+          <div class="spacer"></div>
+
+          <div class="footer">
+            <div>
+              <button>login</button>
+            </div>
+            <span>Your security is our priority</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="banner-text">
+        <h1>The smartest way for your business to pay for their smiles.</h1>
+        <p>
+          Introducing a remarkable set of new features that simplify and accelerate everyday tasks
+          performed in the Portal. Providers have even greater visibility and control over flexible
+          financing offered through the iCreditWorks native mobile App!
+        </p>
+      </div>
+
+      <div class="mobile-desktop-img">
+        <div>
+          <img
+            id="circle1440"
+            src="<%= require('./images/1440Logoandcircle.png')%>"
+            alt="Logo_and_circle.png" />
+          <img
+            id="circle1280"
+            src="<%= require('./images/1280Logoandcircle.png')%>"
+            alt="Logo_and_circle.png" />
+          <img
+            id="circle1920"
+            src="<%= require('./images/1920Logoandcircle.png')%>"
+            alt="Logo_and_circle.png" />
+        </div>
+        <div>
+          <img
+            class="mobile-img"
+            id="screens1440"
+            src="<%= require('./images/1440desktopandphoneimage.png')%>"
+            alt="desktop_and_phone_image" />
+          <img
+            class="mobile-img"
+            id="screens1280"
+            src="<%= require('./images/1280desktopandphoneimage.png')%>"
+            alt="desktop_and_phone_image" />
+          <img
+            class="mobile-img"
+            id="screens1920"
+            src="<%= require('./images/1920desktopandphoneimage.png')%>"
+            alt="desktop_and_phone_image" />
+        </div>
+      </div>
+    </div>
+
+    <div class="app-footer">
+      <img src="<%= require('./images/chat.png')%>" alt="chat icon" />
+    </div>
+  </body>
+</html>
